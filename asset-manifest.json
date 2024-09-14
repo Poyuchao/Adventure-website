@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Adventure-website/static/css/main.4fb28add.css",
-    "main.js": "/Adventure-website/static/js/main.d5738ab4.js",
+    "main.js": "/Adventure-website/static/js/main.f1470474.js",
     "static/media/img-2.jpg": "/Adventure-website/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-1.jpg": "/Adventure-website/static/media/img-1.53f4843759ebec256cb9.jpg",
     "static/media/img-8.jpg": "/Adventure-website/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
@@ -15,10 +15,10 @@
     "static/media/fa-v4compatibility.woff2": "/Adventure-website/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Adventure-website/index.html",
     "main.4fb28add.css.map": "/Adventure-website/static/css/main.4fb28add.css.map",
-    "main.d5738ab4.js.map": "/Adventure-website/static/js/main.d5738ab4.js.map"
+    "main.f1470474.js.map": "/Adventure-website/static/js/main.f1470474.js.map"
   },
   "entrypoints": [
     "static/css/main.4fb28add.css",
-    "static/js/main.d5738ab4.js"
+    "static/js/main.f1470474.js"
   ]
 }
