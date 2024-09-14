@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Adventure Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 概述
 
-## Available Scripts
+這個專案是一個基於 **React** 的網站，展示了世界各地的冒險目的地。此專案作為一個 **練習專案**，用來鞏固 React 和網頁開發的基本概念，包括 **切版**、基於元件的架構，以及使用 React Router 進行路由。
 
-In the project directory, you can run:
+使用者可以瀏覽不同的目的地，查看相關資訊，並在網站的各個頁面（如 **首頁**、**服務**、**產品** 和 **註冊**）之間進行導航。
 
-### `npm start`
+## 功能特色
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React 基礎**：使用 React 建構可重複使用的元件並管理狀態。
+- **切版 (Layout Cutting)**：設計適當的版面結構，非常適合練習 **CSS 佈局** 和響應式設計。
+- **React Router**：使用 React Router 實現頁面之間的導航切換。
+- **FontAwesome 圖示**：透過 FontAwesome 圖示來增強視覺效果。
+- **響應式設計**：使用媒體查詢和響應式設計技術，適應各種裝置的螢幕尺寸。
+- **GitHub Pages 部署**：此網站託管於 **GitHub Pages**，任何人皆可訪問。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 線上展示
 
-### `npm test`
+你可以透過以下連結查看部署的專案：[Adventure Website](https://poyuchao.github.io/Adventure-website)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 安裝說明
 
-### `npm run build`
+如果你想在本地運行該專案，請按照以下步驟操作：
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. 克隆此倉庫：
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    git clone https://github.com/Poyuchao/Adventure-website.git
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. 進入專案目錄：
 
-### `npm run eject`
+    ```bash
+    cd Adventure-website
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. 安裝依賴包：
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. 啟動開發伺服器：
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm start
+    ```
 
-## Learn More
+完成後，可以打開瀏覽器並進入 `http://localhost:3000` 查看專案。
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 部署方式
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+此專案已經配置好，使用 **GitHub Pages** 進行部署。按照以下步驟進行部署：
 
-### Code Splitting
+1. 編譯專案：
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    npm run build
+    ```
 
-### Analyzing the Bundle Size
+2. 部署到 GitHub Pages：
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```bash
+    npm run deploy
+    ```
 
-### Making a Progressive Web App
+請確保 `package.json` 文件中的 `homepage` 字段已正確設置：
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```json
+"homepage": "https://<你的-GitHub-使用者名稱>.github.io/Adventure-website"
